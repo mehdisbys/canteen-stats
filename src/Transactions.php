@@ -11,8 +11,9 @@ class Transactions implements TransactionInterface
 
     public static $TOPUP_TYPE    = 'Topup';
     public static $PURCHASE_TYPE = 'Purchase';
-    private static $PRICE_CELL = 'amount-cell';
-    private static $TYPE_CELL = 'type-cell';
+    public static $PRICE_CELL = 'amount-cell';
+    public static $TYPE_CELL = 'type-cell';
+    public static $DETAILS_CELL = 'details-cell';
 
     /**
      * Transactions constructor.
@@ -32,9 +33,28 @@ class Transactions implements TransactionInterface
     public function getTotal() : float
     {
         $prices = $this->getValues(self::$PRICE_CELL);
-        return array_sum($prices);
+
+        $totalCorrection = $this->getCorrections();
+
+        return array_sum($prices) - $totalCorrection;
     }
 
+
+    public function getCorrections() : float
+    {
+        $corrections = $this->getValues(self::$DETAILS_CELL);
+
+        $totalCorrection = 0.0;
+
+        foreach ($corrections as $correction) {
+            foreach ($correction as $details) {
+                if (isset($details['quantity']) and $details['quantity'] < 0) {
+                    $totalCorrection += ($details['price'] * 2 * abs($details['quantity']));
+                }
+            }
+        }
+        return $totalCorrection;
+    }
 
     public function getMax(): TransactionUnit
     {
