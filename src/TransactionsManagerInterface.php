@@ -7,5 +7,5 @@ interface TransactionsManagerInterface
 {
 
     public static function save(Transactions $transactions);
-    public static function load(): Transactions;
+    public static function load(string $file = NULL): Transactions;
 }

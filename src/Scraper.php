@@ -46,7 +46,7 @@ class Scraper
             $account           = $this->client->submit($form);
             $this->accountInfo = $this->getAccountInfo($account);
         } catch (\Exception $e) {
-            throw new \Exception("There has been an error while logging in");
+            throw new \InvalidArgumentException("There has been an error while logging in");
         }
         return $this->accountInfo;
     }

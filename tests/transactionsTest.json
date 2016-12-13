@@ -1,0 +1,564 @@
+[
+  {
+    "date-cell": "29\/07\/2016",
+    "time-cell": "13:44",
+    "type-cell": "Purchase",
+    "amount-cell": "4.55",
+    "shop-cell": "Deli Bar Till 3 -  B2",
+    "balance-cell": "15.75",
+    "details-cell": [
+      {
+        "item": "Salad Bar 90P Per100G",
+        "quantity": "1",
+        "price": "2.70",
+        "total": "2.70"
+      },
+      {
+        "item": "Weigh - Theatre LARGE plate",
+        "quantity": "1",
+        "price": "0.00",
+        "total": "0.00"
+      },
+      {
+        "item": "Jacket Potato Plain",
+        "quantity": "1",
+        "price": "1.00",
+        "total": "1.00"
+      },
+      {
+        "item": "filing 1",
+        "quantity": "1",
+        "price": "0.85",
+        "total": "0.85"
+      }
+    ],
+    "epoch": 1469799840
+  },
+  {
+    "date-cell": "29\/07\/2016",
+    "time-cell": "13:38",
+    "type-cell": "Topup",
+    "amount-cell": "20.00",
+    "shop-cell": "Good2Go Kiosk (Coin & Note)",
+    "balance-cell": "20.30",
+    "epoch": 1469799480
+  },
+  {
+    "date-cell": "29\/07\/2016",
+    "time-cell": "11:51",
+    "type-cell": "Purchase",
+    "amount-cell": "0.60",
+    "shop-cell": "Cafe Till 3 - 1st Floor",
+    "balance-cell": "0.30",
+    "details-cell": [
+      {
+        "item": "Banana",
+        "quantity": "1",
+        "price": "0.30",
+        "total": "0.30"
+      },
+      {
+        "item": "Banana",
+        "quantity": "1",
+        "price": "0.30",
+        "total": "0.30"
+      }
+    ],
+    "epoch": 1469793060
+  },
+  {
+    "date-cell": "14\/07\/2016",
+    "time-cell": "16:03",
+    "type-cell": "Purchase",
+    "amount-cell": "0.60",
+    "shop-cell": "Cafe Till 2 - 1st Floor",
+    "balance-cell": "0.90",
+    "details-cell": [
+      {
+        "item": "Banana",
+        "quantity": "1",
+        "price": "0.30",
+        "total": "0.30"
+      },
+      {
+        "item": "Banana",
+        "quantity": "1",
+        "price": "0.30",
+        "total": "0.30"
+      }
+    ],
+    "epoch": 1468512180
+  },
+  {
+    "date-cell": "13\/07\/2016",
+    "time-cell": "13:23",
+    "type-cell": "Purchase",
+    "amount-cell": "1.10",
+    "shop-cell": "Restaurant Till 2 -  B2",
+    "balance-cell": "1.50",
+    "details-cell": [
+      {
+        "item": "Small Soup",
+        "quantity": "1",
+        "price": "1.10",
+        "total": "1.10"
+      }
+    ],
+    "epoch": 1468416180
+  },
+  {
+    "date-cell": "12\/07\/2016",
+    "time-cell": "13:08",
+    "type-cell": "Purchase",
+    "amount-cell": "3.75",
+    "shop-cell": "Restaurant Till 1 -  B2",
+    "balance-cell": "2.60",
+    "details-cell": [
+      {
+        "item": "Salad Bar 90P Per100G",
+        "quantity": "1",
+        "price": "2.75",
+        "total": "2.75"
+      },
+      {
+        "item": "Weigh - Theatre LARGE plate",
+        "quantity": "1",
+        "price": "0.00",
+        "total": "0.00"
+      },
+      {
+        "item": "Jacket Potato Plain",
+        "quantity": "1",
+        "price": "1.00",
+        "total": "1.00"
+      }
+    ],
+    "epoch": 1468328880
+  },
+  {
+    "date-cell": "12\/07\/2016",
+    "time-cell": "12:35",
+    "type-cell": "Purchase",
+    "amount-cell": "1.10",
+    "shop-cell": "Restaurant Till 2 -  B2",
+    "balance-cell": "6.35",
+    "details-cell": [
+      {
+        "item": "Small Soup",
+        "quantity": "1",
+        "price": "1.10",
+        "total": "1.10"
+      }
+    ],
+    "epoch": 1468326900
+  },
+  {
+    "date-cell": "11\/07\/2016",
+    "time-cell": "13:13",
+    "type-cell": "Purchase",
+    "amount-cell": "3.35",
+    "shop-cell": "Restaurant Till 2 -  B2",
+    "balance-cell": "7.45",
+    "details-cell": [
+      {
+        "item": "Main - Vegetarian \u00a33.35",
+        "quantity": "1",
+        "price": "3.35",
+        "total": "3.35"
+      }
+    ],
+    "epoch": 1468242780
+  },
+  {
+    "date-cell": "11\/07\/2016",
+    "time-cell": "13:10",
+    "type-cell": "Topup",
+    "amount-cell": "10.00",
+    "shop-cell": "Good2Go Kiosk (Visitor)",
+    "balance-cell": "10.80",
+    "epoch": 1468242600
+  },
+  {
+    "date-cell": "07\/07\/2016",
+    "time-cell": "12:07",
+    "type-cell": "Purchase",
+    "amount-cell": "0.30",
+    "shop-cell": "Cafe Till 2 - 1st Floor",
+    "balance-cell": "0.80",
+    "details-cell": [
+      {
+        "item": "Banana",
+        "quantity": "1",
+        "price": "0.30",
+        "total": "0.30"
+      }
+    ],
+    "epoch": 1467893220
+  },
+  {
+    "date-cell": "22\/06\/2016",
+    "time-cell": "13:21",
+    "type-cell": "Purchase",
+    "amount-cell": "3.35",
+    "shop-cell": "Restaurant Till 2 -  B2",
+    "balance-cell": "1.10",
+    "details-cell": [
+      {
+        "item": "Main - Vegetarian \u00a33.35",
+        "quantity": "1",
+        "price": "3.35",
+        "total": "3.35"
+      }
+    ],
+    "epoch": 1466601660
+  },
+  {
+    "date-cell": "22\/06\/2016",
+    "time-cell": "13:15",
+    "type-cell": "Topup",
+    "amount-cell": "2.00",
+    "shop-cell": "Good2Go Kiosk (Coin & Note)",
+    "balance-cell": "4.45",
+    "epoch": 1466601300
+  },
+  {
+    "date-cell": "16\/06\/2016",
+    "time-cell": "13:07",
+    "type-cell": "Purchase",
+    "amount-cell": "3.12",
+    "shop-cell": "Restaurant Till 2 -  B2",
+    "balance-cell": "2.45",
+    "details-cell": [
+      {
+        "item": "Salad Bar 90P Per100G",
+        "quantity": "1",
+        "price": "2.07",
+        "total": "2.07"
+      },
+      {
+        "item": "Weigh - Theatre LARGE plate",
+        "quantity": "1",
+        "price": "0.00",
+        "total": "0.00"
+      },
+      {
+        "item": "Small Chips",
+        "quantity": "1",
+        "price": "1.05",
+        "total": "1.05"
+      }
+    ],
+    "epoch": 1466082420
+  },
+  {
+    "date-cell": "16\/06\/2016",
+    "time-cell": "13:03",
+    "type-cell": "Topup",
+    "amount-cell": "2.50",
+    "shop-cell": "Good2Go Kiosk (Coin & Note)",
+    "balance-cell": "5.57",
+    "epoch": 1466082180
+  },
+  {
+    "date-cell": "09\/06\/2016",
+    "time-cell": "13:04",
+    "type-cell": "Purchase",
+    "amount-cell": "3.39",
+    "shop-cell": "Restaurant Till 2 -  B2",
+    "balance-cell": "3.07",
+    "details-cell": [
+      {
+        "item": "Salad Bar 90P Per100G",
+        "quantity": "1",
+        "price": "2.34",
+        "total": "2.34"
+      },
+      {
+        "item": "Weigh - Brown Salad Box with window",
+        "quantity": "1",
+        "price": "0.00",
+        "total": "0.00"
+      },
+      {
+        "item": "Small Chips",
+        "quantity": "1",
+        "price": "1.05",
+        "total": "1.05"
+      }
+    ],
+    "epoch": 1465477440
+  },
+  {
+    "date-cell": "07\/06\/2016",
+    "time-cell": "13:52",
+    "type-cell": "Purchase",
+    "amount-cell": "3.44",
+    "shop-cell": "Deli Bar Till 3 -  B2",
+    "balance-cell": "6.46",
+    "details-cell": [
+      {
+        "item": "Salad Bar 90P Per100G",
+        "quantity": "1",
+        "price": "2.39",
+        "total": "2.39"
+      },
+      {
+        "item": "Weigh - Theatre LARGE plate",
+        "quantity": "1",
+        "price": "0.00",
+        "total": "0.00"
+      },
+      {
+        "item": "Small Chips",
+        "quantity": "1",
+        "price": "1.05",
+        "total": "1.05"
+      }
+    ],
+    "epoch": 1465307520
+  },
+  {
+    "date-cell": "06\/06\/2016",
+    "time-cell": "13:26",
+    "type-cell": "Purchase",
+    "amount-cell": "3.35",
+    "shop-cell": "Deli Bar Till 3 -  B2",
+    "balance-cell": "9.90",
+    "details-cell": [
+      {
+        "item": "Main - Vegetarian \u00a33.35",
+        "quantity": "1",
+        "price": "3.35",
+        "total": "3.35"
+      }
+    ],
+    "epoch": 1465219560
+  },
+  {
+    "date-cell": "06\/06\/2016",
+    "time-cell": "13:25",
+    "type-cell": "Topup",
+    "amount-cell": "10.00",
+    "shop-cell": "Good2Go Kiosk (Coin & Note)",
+    "balance-cell": "13.25",
+    "epoch": 1465219500
+  },
+  {
+    "date-cell": "24\/05\/2016",
+    "time-cell": "13:01",
+    "type-cell": "Purchase",
+    "amount-cell": "2.72",
+    "shop-cell": "Restaurant Till 2 -  B2",
+    "balance-cell": "3.25",
+    "details-cell": [
+      {
+        "item": "Salad Bar 90P Per100G",
+        "quantity": "1",
+        "price": "1.67",
+        "total": "1.67"
+      },
+      {
+        "item": "Weigh - Brown Salad Box with window",
+        "quantity": "1",
+        "price": "0.00",
+        "total": "0.00"
+      },
+      {
+        "item": "Small Chips",
+        "quantity": "1",
+        "price": "1.05",
+        "total": "1.05"
+      }
+    ],
+    "epoch": 1464094860
+  },
+  {
+    "date-cell": "24\/05\/2016",
+    "time-cell": "12:56",
+    "type-cell": "Topup",
+    "amount-cell": "5.00",
+    "shop-cell": "Good2Go Kiosk (Visitor)",
+    "balance-cell": "5.97",
+    "epoch": 1464094560
+  },
+  {
+    "date-cell": "19\/05\/2016",
+    "time-cell": "13:11",
+    "type-cell": "Purchase",
+    "amount-cell": "2.49",
+    "shop-cell": "Restaurant Till 2 -  B2",
+    "balance-cell": "0.97",
+    "details-cell": [
+      {
+        "item": "Salad Bar 90P Per100G",
+        "quantity": "1",
+        "price": "1.44",
+        "total": "1.44"
+      },
+      {
+        "item": "Weigh - Theatre LARGE plate",
+        "quantity": "1",
+        "price": "0.00",
+        "total": "0.00"
+      },
+      {
+        "item": "Small Chips",
+        "quantity": "1",
+        "price": "1.05",
+        "total": "1.05"
+      }
+    ],
+    "epoch": 1463663460
+  },
+  {
+    "date-cell": "19\/05\/2016",
+    "time-cell": "13:04",
+    "type-cell": "Topup",
+    "amount-cell": "2.50",
+    "shop-cell": "Good2Go Kiosk (Coin & Note)",
+    "balance-cell": "3.46",
+    "epoch": 1463663040
+  },
+  {
+    "date-cell": "17\/05\/2016",
+    "time-cell": "13:28",
+    "type-cell": "Purchase",
+    "amount-cell": "2.28",
+    "shop-cell": "Restaurant Till 2 -  B2",
+    "balance-cell": "0.96",
+    "details-cell": [
+      {
+        "item": "Large Soup",
+        "quantity": "1",
+        "price": "1.23",
+        "total": "1.23"
+      },
+      {
+        "item": "Small Chips",
+        "quantity": "1",
+        "price": "1.05",
+        "total": "1.05"
+      }
+    ],
+    "epoch": 1463491680
+  },
+  {
+    "date-cell": "16\/05\/2016",
+    "time-cell": "13:30",
+    "type-cell": "Purchase",
+    "amount-cell": "2.85",
+    "shop-cell": "Restaurant Till 2 -  B2",
+    "balance-cell": "3.24",
+    "details-cell": [
+      {
+        "item": "Salad Bar 90P Per100G",
+        "quantity": "1",
+        "price": "1.80",
+        "total": "1.80"
+      },
+      {
+        "item": "Weigh - Theatre LARGE plate",
+        "quantity": "1",
+        "price": "0.00",
+        "total": "0.00"
+      },
+      {
+        "item": "Small Chips",
+        "quantity": "1",
+        "price": "1.05",
+        "total": "1.05"
+      }
+    ],
+    "epoch": 1463405400
+  },
+  {
+    "date-cell": "16\/05\/2016",
+    "time-cell": "13:26",
+    "type-cell": "Topup",
+    "amount-cell": "5.00",
+    "shop-cell": "Good2Go Kiosk (Visitor)",
+    "balance-cell": "6.09",
+    "epoch": 1463405160
+  },
+  {
+    "date-cell": "13\/05\/2016",
+    "time-cell": "12:06",
+    "type-cell": "Purchase",
+    "amount-cell": "1.10",
+    "shop-cell": "Cafe Till 2 - 1st Floor",
+    "balance-cell": "1.09",
+    "details-cell": [
+      {
+        "item": "Esspresso Double",
+        "quantity": "1",
+        "price": "1.10",
+        "total": "1.10"
+      }
+    ],
+    "epoch": 1463141160
+  },
+  {
+    "date-cell": "12\/05\/2016",
+    "time-cell": "13:23",
+    "type-cell": "Purchase",
+    "amount-cell": "3.32",
+    "shop-cell": "Restaurant Till 2 -  B2",
+    "balance-cell": "2.19",
+    "details-cell": [
+      {
+        "item": "Salad Bar 90P Per100G",
+        "quantity": "1",
+        "price": "2.07",
+        "total": "2.07"
+      },
+      {
+        "item": "Weigh - Theatre LARGE plate",
+        "quantity": "1",
+        "price": "0.00",
+        "total": "0.00"
+      },
+      {
+        "item": "Large Chips",
+        "quantity": "1",
+        "price": "1.25",
+        "total": "1.25"
+      }
+    ],
+    "epoch": 1463059380
+  },
+  {
+    "date-cell": "10\/05\/2016",
+    "time-cell": "13:33",
+    "type-cell": "Purchase",
+    "amount-cell": "3.94",
+    "shop-cell": "Deli Bar Till 3 -  B2",
+    "balance-cell": "5.51",
+    "details-cell": [
+      {
+        "item": "Salad Bar 90P Per100G",
+        "quantity": "1",
+        "price": "1.71",
+        "total": "1.71"
+      },
+      {
+        "item": "Weigh - Brown Salad Box with window",
+        "quantity": "1",
+        "price": "0.00",
+        "total": "0.00"
+      },
+      {
+        "item": "Large Soup",
+        "quantity": "1",
+        "price": "1.23",
+        "total": "1.23"
+      },
+      {
+        "item": "Jacket Potato Plain",
+        "quantity": "1",
+        "price": "1.00",
+        "total": "1.00"
+      }
+    ],
+    "epoch": 1462887180
+  }
+]

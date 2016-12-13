@@ -13,12 +13,14 @@ class TransactionsManager implements TransactionsManagerInterface
         fclose($file);
     }
 
-    public static function load(): Transactions
+    public static function load(string $file = NULL): Transactions
     {
-        if (file_exists(self::$TRANSACTION_HISTORY)) {
-            return new Transactions(json_decode(file_get_contents(self::$TRANSACTION_HISTORY), true));
+        $filename = $file ?? self::$TRANSACTION_HISTORY;
+
+        if (file_exists($filename)) {
+            return new Transactions(json_decode(file_get_contents($filename), true));
         }
         return new Transactions([]);
     }
-
+    
 }

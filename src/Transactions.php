@@ -36,7 +36,7 @@ class Transactions implements TransactionInterface
 
         $totalCorrection = $this->getCorrections();
 
-        return array_sum($prices) - $totalCorrection;
+        return round(array_sum($prices) - $totalCorrection,2);
     }
 
 

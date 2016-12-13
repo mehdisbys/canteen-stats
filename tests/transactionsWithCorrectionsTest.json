@@ -1,0 +1,171 @@
+[
+  {
+    "date-cell": "13\/05\/2016",
+    "time-cell": "14:05",
+    "type-cell": "Purchase",
+    "amount-cell": "6.89",
+    "shop-cell": "Deli Bar Till 3 -  B2",
+    "balance-cell": "35.58",
+    "details-cell": [
+      {
+        "item": "Open Deli",
+        "quantity": "-1",
+        "price": "6.89",
+        "total": "6.89"
+      }
+    ],
+    "epoch": 1463148300
+  },
+  {
+    "date-cell": "13\/05\/2016",
+    "time-cell": "14:04",
+    "type-cell": "Purchase",
+    "amount-cell": "7.24",
+    "shop-cell": "Deli Bar Till 3 -  B2",
+    "balance-cell": "28.69",
+    "details-cell": [
+      {
+        "item": "Salad Bar 90P Per100G",
+        "quantity": "1",
+        "price": "6.89",
+        "total": "6.89"
+      },
+      {
+        "item": "Weigh - Brown Salad Box with window",
+        "quantity": "1",
+        "price": "0.00",
+        "total": "0.00"
+      },
+      {
+        "item": "Half a Bread Roll Soup",
+        "quantity": "1",
+        "price": "0.35",
+        "total": "0.35"
+      }
+    ],
+    "epoch": 1463148240
+  },
+  {
+    "date-cell": "13\/05\/2016",
+    "time-cell": "14:04",
+    "type-cell": "Purchase",
+    "amount-cell": "1.66",
+    "shop-cell": "Deli Bar Till 3 -  B2",
+    "balance-cell": "35.93",
+    "details-cell": [
+      {
+        "item": "Salad Bar 90P Per100G",
+        "quantity": "1",
+        "price": "1.31",
+        "total": "1.31"
+      },
+      {
+        "item": "Weigh - Salad Bowl (green)",
+        "quantity": "1",
+        "price": "0.00",
+        "total": "0.00"
+      },
+      {
+        "item": "Half a Bread Roll Soup",
+        "quantity": "1",
+        "price": "0.35",
+        "total": "0.35"
+      }
+    ],
+    "epoch": 1463148240
+  },
+  {
+    "date-cell": "11\/05\/2016",
+    "time-cell": "14:06",
+    "type-cell": "Purchase",
+    "amount-cell": "1.02",
+    "shop-cell": "Cafe Till 2 - 1st Floor",
+    "balance-cell": "37.59",
+    "details-cell": [
+      {
+        "item": "Single Machiato",
+        "quantity": "1",
+        "price": "1.02",
+        "total": "1.02"
+      }
+    ],
+    "epoch": 1462975560
+  },
+  {
+    "date-cell": "11\/05\/2016",
+    "time-cell": "13:23",
+    "type-cell": "Purchase",
+    "amount-cell": "3.90",
+    "shop-cell": "Restaurant Till 2 -  B2",
+    "balance-cell": "38.61",
+    "details-cell": [
+      {
+        "item": "Chef Counter",
+        "quantity": "1",
+        "price": "3.90",
+        "total": "3.90"
+      }
+    ],
+    "epoch": 1462972980
+  },
+  {
+    "date-cell": "11\/05\/2016",
+    "time-cell": "13:11",
+    "type-cell": "Topup",
+    "amount-cell": "40.00",
+    "shop-cell": "Good2Go Web",
+    "balance-cell": "42.51",
+    "epoch": 1462972260
+  },
+  {
+    "date-cell": "10\/05\/2016",
+    "time-cell": "14:37",
+    "type-cell": "Purchase",
+    "amount-cell": "1.02",
+    "shop-cell": "Cafe Till 2 - 1st Floor",
+    "balance-cell": "2.51",
+    "details-cell": [
+      {
+        "item": "Single Machiato",
+        "quantity": "1",
+        "price": "1.02",
+        "total": "1.02"
+      }
+    ],
+    "epoch": 1462891020
+  },
+  {
+    "date-cell": "10\/05\/2016",
+    "time-cell": "13:14",
+    "type-cell": "Purchase",
+    "amount-cell": "3.35",
+    "shop-cell": "Restaurant Till 2 -  B2",
+    "balance-cell": "3.53",
+    "details-cell": [
+      {
+        "item": "Main - Vegetarian \u00a33.35",
+        "quantity": "1",
+        "price": "3.35",
+        "total": "3.35"
+      }
+    ],
+    "epoch": 1462886040
+  },
+  {
+    "date-cell": "09\/05\/2016",
+    "time-cell": "14:11",
+    "type-cell": "Purchase",
+    "amount-cell": "1.02",
+    "shop-cell": "Cafe Till 2 - 1st Floor",
+    "balance-cell": "6.88",
+    "details-cell": [
+      {
+        "item": "Single Machiato",
+        "quantity": "1",
+        "price": "1.02",
+        "total": "1.02"
+      }
+    ],
+    "epoch": 1462803060
+  }
+]
