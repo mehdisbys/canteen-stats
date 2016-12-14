@@ -31,7 +31,6 @@ class Scraper
     }
 
 
-
     private function login(string $email, string $password)
     {
         try {
@@ -43,12 +42,11 @@ class Scraper
                  'LoginUser.Password' => htmlspecialchars($password),
              ]);
 
-            $account           = $this->client->submit($form);
-            $this->accountInfo = $this->getAccountInfo($account);
+            $this->client->submit($form);
+            
         } catch (\Exception $e) {
             throw new \InvalidArgumentException("There has been an error while logging in");
         }
-        return $this->accountInfo;
     }
 
 
@@ -164,14 +162,6 @@ class Scraper
         return $date->getTimestamp();
     }
 
-
-    private function getAccountInfo(Crawler $crawler)
-    {
-        $accountHolder  = $crawler->filter('.homeInfoContainer')->text();
-        $currentBalance = $crawler->filter('#accountinfobalance')->text();
-
-        return ['accountHolder' => $accountHolder, 'balance' => $currentBalance];
-    }
 
     public function getStats(string $email, string $password)
     {
