@@ -186,7 +186,8 @@ class Scraper
                 'lowest_paid'             => $purchases->getMin(),
             ];
 
-        return json_encode($r, JSON_PRETTY_PRINT) . "\n";
+        return $r;
     }
+
 
 }

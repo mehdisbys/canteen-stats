@@ -17,5 +17,10 @@ $password = getenv('PASSWORD');
 
 $scraper  = new Scraper($client);
 
-echo $scraper->getStats($email, $password);
+$r = $scraper->getStats($email, $password);
+
+exec("osascript -e 'display notification \"£{$r['current_balance']}\" with title \"Canteen Balance\"'");
+
+echo json_encode($r, JSON_PRETTY_PRINT) . "\n";
+
 
