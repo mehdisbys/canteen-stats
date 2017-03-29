@@ -8,6 +8,8 @@ including current balance.
 
 `git clone https://github.com/mehdisbys/canteen-stats`
 
+`cd canteen-stats`
+
 `composer install `
 
 #Requirements
