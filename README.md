@@ -14,6 +14,8 @@ including current balance.
 
 #Requirements
 
+You should have [Composer](https://getcomposer.org/) installed
+
 You should already have an online account, if not [go create one](http://icashless.systopiacloud.com)
 
 # Usage
