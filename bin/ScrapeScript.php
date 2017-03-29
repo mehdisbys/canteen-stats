@@ -3,6 +3,7 @@
 namespace App;
 
 use Dotenv\Dotenv;
+use Dotenv\Exception\InvalidPathException;
 
 require "vendor/autoload.php";
 
@@ -10,12 +11,20 @@ $client       = new \Goutte\Client();
 $guzzleClient = new \GuzzleHttp\Client(['curl' => [CURLOPT_TIMEOUT => 60]]);
 $client->setClient($guzzleClient);
 
-$dotenv       = new Dotenv(__DIR__ . '/../');
-$dotenv->load();
+$dotenv = new Dotenv(__DIR__ . '/../');
+
+try {
+    $dotenv->load();
+} catch (InvalidPathException $e) {
+
+    echo "Please create a .env file (look at .env.example)";
+    exit(1);
+}
+
 $email    = getenv('EMAIL');
 $password = getenv('PASSWORD');
 
-$scraper  = new Scraper($client);
+$scraper = new Scraper($client);
 
 $r = $scraper->getStats($email, $password);
 
