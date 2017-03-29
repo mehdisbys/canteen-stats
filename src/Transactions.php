@@ -14,6 +14,7 @@ class Transactions implements TransactionInterface
     public static $PRICE_CELL = 'amount-cell';
     public static $TYPE_CELL = 'type-cell';
     public static $DETAILS_CELL = 'details-cell';
+    public static $EPOCH_CELL = 'epoch';
 
     /**
      * Transactions constructor.

@@ -24,12 +24,15 @@ try {
 $email    = getenv('EMAIL');
 $password = getenv('PASSWORD');
 
-$scraper = new Scraper($client);
+$stats   = new StatsFromHistory();
+$totalPerMonth = $stats::getTotalPerMonth(new TransactionsManager());
 
-$r = $scraper->getStats($email, $password);
+$scraper = new Scraper($client);
+$r       = $scraper->getStats($email, $password);
 
 exec("osascript -e 'display notification \"£{$r['current_balance']}\" with title \"Canteen Balance\"'");
 
-echo json_encode($r, JSON_PRETTY_PRINT) . "\n";
+
+echo json_encode([$r, $totalPerMonth], JSON_PRETTY_PRINT) . "\n";
 
 
